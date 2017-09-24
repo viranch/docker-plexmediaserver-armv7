@@ -16,7 +16,7 @@ docker pull viranch/plex-armv7
 ```
 git clone git://github.com/viranch/docker-plexmediaserver-armv7.git /tmp/pms-arm
 cd /tmp/pms-arm
-./generate_dockerfile.sh && docker build -t viranch/plex-armv7 .
+make  # builds image with name 'viranch/plex-armv7'
 ```
 
 ## Run
